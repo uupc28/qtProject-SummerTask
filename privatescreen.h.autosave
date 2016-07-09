@@ -9,6 +9,12 @@
 #include <QtNetwork/QTcpSocket>
 #include <QtNetwork/QTcpServer>
 
+struct TreeN{
+    QChar data;
+    qint16 left,right;
+};
+
+
 namespace Ui {
 class PrivateScreen;
 }
@@ -47,6 +53,8 @@ private:
     void toHaf(QString gettext);
     void toHistory(QString str);
     void sendMsg(QString str);
+    QVector<TreeN>* Tvector;
+    void sendHaf();
     //bool cmp(const Record &a,const Record &b);
 };
 

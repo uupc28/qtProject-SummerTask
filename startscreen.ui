@@ -54,7 +54,7 @@
     <rect>
      <x>130</x>
      <y>26</y>
-     <width>141</width>
+     <width>131</width>
      <height>21</height>
     </rect>
    </property>
@@ -72,7 +72,7 @@
     <rect>
      <x>130</x>
      <y>60</y>
-     <width>141</width>
+     <width>131</width>
      <height>21</height>
     </rect>
    </property>
@@ -80,7 +80,7 @@
   <widget class="QPushButton" name="Button_connect">
    <property name="geometry">
     <rect>
-     <x>310</x>
+     <x>350</x>
      <y>60</y>
      <width>71</width>
      <height>21</height>
@@ -162,7 +162,7 @@
   <widget class="QPushButton" name="Button_listen">
    <property name="geometry">
     <rect>
-     <x>310</x>
+     <x>350</x>
      <y>26</y>
      <width>71</width>
      <height>21</height>
@@ -170,6 +170,26 @@
    </property>
    <property name="text">
     <string>Listen</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Edit_lisPort">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>26</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Edit_conPort">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>60</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
    </property>
   </widget>
  </widget>

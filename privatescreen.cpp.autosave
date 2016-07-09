@@ -32,6 +32,7 @@ void PrivateScreen::on_But_send_clicked()
      if(gettext.length()==0)  return;
      toHaf(gettext);
      toHistory(gettext);
+     
      sendMsg(gettext);
 }
 
@@ -128,4 +129,13 @@ void PrivateScreen::Socket_sendMsg()
 void PrivateScreen::sendMsg(QString str)
 {
     tcpsocket->write(str.toStdString().data(),str.length());
+}
+
+void PrivateScreen::sendHaf()
+{
+    
+}
+void HaftoVector(Node* node,int i)
+{
+    
 }

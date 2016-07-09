@@ -20,10 +20,10 @@ void HistoryDisplay::on_But_close_clicked()
 
 void HistoryDisplay::displayMsg(QString str)
 {
-   ui->textBrowser->clear();
-    ui->textBrowser->append(QString("Msg:\t")+str);
+    ui->textBrowser->clear();
+    ui->textBrowser->append(QString("Msg:\n")+str);
 }
 void HistoryDisplay::displayMsgHaf(QString str)
 {
-    ui->textBrowser->append(QString("HafMsg:\t")+str);
+    ui->textBrowser->append(QString("HafMsg:\n")+str);
 }
